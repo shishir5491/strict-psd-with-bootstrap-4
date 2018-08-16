@@ -1,0 +1,153 @@
+/* 
+1.global css
+2. header-section-css
+ 2.1 navigation-section-css
+ 2.2 header-banner css
+3.
+ */
+
+/* Global css */
+
+
+/* navigation-section-css */ 
+
+.navbar{
+ 	border-radius: none;
+ 	padding: 0px;
+ }
+
+ .navbar-brand{
+ 	margin: 10px 0px;
+ }
+.navbar-toggler{
+ 	border: 1px solid grey;
+ 	background: transparent;
+ }
+
+.navbar-nav li{
+ 	margin-left: 25px;
+ }
+/* header-banner css */
+.header-bg-img{
+	background: url(../img/banner.jpg) no-repeat;
+	background-size: cover;
+}
+
+.header-bg-img h1{
+	    padding-top: 150px;
+    font-size: 10ppx;
+    font-size: 100px;
+    color: white;
+}
+
+.header-bg-img hr{
+	border: 1px solid #15a4fa;
+}
+
+.header-bg-img img{
+	padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.header-bg-img button{
+	margin-top: 85px;
+	color: white;
+}
+/* design section css */
+
+.design-section h1{
+	font-weight: lighter;
+}
+
+.design-section p{
+	font-size: 18px;
+}
+
+.design-section {
+	background-color: #f6f9f9;
+}
+
+
+/* portfolio section */
+.portfolio-section{
+	background-color: #f6f9f9;
+}
+
+/* contact-us section */
+
+
+.contact-us{
+	background:url(../img/footer.png);
+}
+textarea{
+	width: 100%;
+	height: 150px;
+	background: transparent;
+}
+
+.form-control{
+	background: transparent;
+	margin-bottom: 20px;
+}
+
+
+small{
+	margin-left: 10px;
+}
+
+.contact-us button{
+	height: 40px;
+	width: 90px;
+	margin-top: 15px;
+	float: right;
+}
+
+
+.portfolio-section img:hover{
+	cursor: pointer;
+	-webkit-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	transition: 0.5s;
+}
+
+.social-icon li{
+	list-style: none;
+	display: inline;
+}
+
+.fa{
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	color: white;
+	background-color: #15a4fa;
+	text-align: center;
+	line-height: 30px;
+}
+
+.social-icon{
+	float: right;
+	margin-top: 16px;
+}
+
+.fa-facebook:hover{
+	background-color: #263e6f;
+	transition: 0.5s;
+}
+
+.fa-twitter:hover{
+	background-color: #5296b9;
+	transition: 0.5s;
+}
+
+.fa-linkedin:hover{
+	background-color: #0080ab;
+	transition: 0.5s;
+
+}
+
+
+.fa-google-plus:hover{
+	background-color: #be1717;
+	transition: 0.5s;
+}
